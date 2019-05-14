@@ -1,14 +1,19 @@
 .jumbotron {
-    background-image: url("../images/jumbotron-bg.jpg");
-    background-size: cover;
-
-}
-
-.jumbotron h1 {
+    background-color:darkgray;
     color: red;
-
-
+    border: solid 3px;
+    border-color: red;
+    margin-top: 10px;
+    
 }
 
+body {
+   background: url("/Users/jbmaness/unit-4-game/assets/images/ep_naturalblack.png");
+}
+
+.container-instructions {
+    color: white;
+   
+}
 
 
