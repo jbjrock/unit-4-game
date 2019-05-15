@@ -54,8 +54,7 @@ $(document).ready(function () {
         //Win & lose conditions
         if (playerTotal == Random) {
             woohoo();
-        }
-        else if (playerTotal > Random) {
+        } else if (playerTotal > Random) {
             loser();
         }
     })
@@ -65,8 +64,7 @@ $(document).ready(function () {
         $('#totalScore').text(playerTotal);
         if (playerTotal == Random) {
             woohoo();
-        }
-        else if (playerTotal > Random) {
+        } else if (playerTotal > Random) {
             loser();
         }
     })
@@ -77,8 +75,7 @@ $(document).ready(function () {
 
         if (playerTotal == Random) {
             woohoo();
-        }
-        else if (playerTotal > Random) {
+        } else if (playerTotal > Random) {
             loser();
         }
     })
@@ -89,9 +86,8 @@ $(document).ready(function () {
 
         if (playerTotal == Random) {
             woohoo();
-        }
-        else if (playerTotal > Random) {
+        } else if (playerTotal > Random) {
             loser();
         }
     });
-}); 
+});
